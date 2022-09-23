@@ -35,3 +35,12 @@ COMPLEX
 - object - a structure that allows you to describe an "object" and describe the actions that the "object" can do.
 
 */
+
+//this is a single line comment
+
+/* this is a
+multi-line
+comment in javascript*/
+
+console.log("Name: Trevor Scheving")
+console.log("Favorite food: Shrimp")
