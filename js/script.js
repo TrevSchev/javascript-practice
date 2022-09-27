@@ -44,3 +44,59 @@ comment in javascript*/
 
 console.log("Name: Trevor Scheving")
 console.log("Favorite food: Shrimp")
+
+
+//Boolean
+true;
+false;
+
+//Number
+1;
+2;
+92789123478;
+-1278639128673;
+Infinity;
+-Infinity;
+NaN; //Not a Number
+
+//String
+"words";
+'numbers';
+"knascjbn";
+""; //empty string
+"anything wrapped just in quotes"
+
+//Undefined 
+undefined;
+
+//Null
+null;
+
+//Big Int
+45n;
+345n;
+
+//Symbol: nothing of the same value can exist
+Symbol("some label")
+Symbol("another label")
+
+Symbol() //unique
+Symbol() //also unique
+
+//Operators
+/*
+
+ + (if with numbers then it adds) (if with strings then it combines "concatenates")
+
+ / 
+ %
+-
+typeof
+
+1. unary operator (operate on 1 thing)
+2. binary operator (operates on 2 things)
+
+ */
+
+//will show in console on browser the type of thing it is. this is a string
+console.log(typeof "who doesn't love pizza?");
