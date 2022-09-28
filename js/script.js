@@ -100,3 +100,8 @@ typeof
 
 //will show in console on browser the type of thing it is. this is a string
 console.log(typeof "who doesn't love pizza?");
+
+//Daily Challenge day-2
+console.log("Supercalifragilisticexpialidocious")
+
+con
