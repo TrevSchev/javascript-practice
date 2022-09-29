@@ -103,5 +103,3 @@ console.log(typeof "who doesn't love pizza?");
 
 //Daily Challenge day-2
 console.log("Supercalifragilisticexpialidocious")
-
-con
