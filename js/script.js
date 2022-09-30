@@ -1,14 +1,14 @@
 
 
 
-alert("it works")
+// alert("it works")
 
 // Case sensitivity - certain script requires the case 
 // Semicolons - acts as a period at the end of a sentence. recomended in best practices 
 
-console.log("hello there");
+// console.log("hello there");
 
-console.log("another log that will show up in the console on the browser that you can find when you inspect a page");
+// console.log("another log that will show up in the console on the browser that you can find when you inspect a page");
 
 // Data Types (Categories) (Category Types)
 
@@ -42,8 +42,8 @@ COMPLEX
 multi-line
 comment in javascript*/
 
-console.log("Name: Trevor Scheving")
-console.log("Favorite food: Shrimp")
+// console.log("Name: Trevor Scheving")
+// console.log("Favorite food: Shrimp")
 
 
 //Boolean
@@ -98,8 +98,81 @@ typeof
 
  */
 
-//will show in console on browser the type of thing it is. this is a string
-console.log(typeof "who doesn't love pizza?");
+/*will show in console on browser the type of thing it is. this is a string
+console.log(typeof "who doesn't love pizza?");*/
 
-//Daily Challenge day-2
-console.log("Supercalifragilisticexpialidocious")
+// Daily Challenge day-2
+/*console.log("Supercalifragilisticexpialidocious".length);
+console.log(355);
+console.log(typeof 355);
+
+console.log(235n);
+console.log(typeof 235n);*/
+// End of Daily Challenge
+
+
+//Take-Home day2
+/*let adj1 = "charming";
+let adj2 = "beautiful";
+let adj3 = "cruel";
+let adj4 = "graceful";
+let adj5 = "clumsy";
+let adj6 = "charismatic";
+let adverb = "warmly";
+let color = "black";
+let noun1 = "Texas";
+let noun2 = "cat";
+let noun3 = "tree";
+let noun4 = "park";
+let noun5 = "cheese";
+let noun6 = "drink";
+let num = "eleventy one";
+let pnoun1 = "her";
+
+let story = `It has often been said that a dog is a man's best ${noun1}. Dogs are very ${adj1} and can be taught many ${adj2}
+tricks. A dog can be trained to carry a ${noun2} in his mouth.
+If you throw his ${noun3}, he will run and fetch it. Dogs
+will also bark ${adverb} if someone tries to break into your
+${noun4} during the night. One of the most popular canine pets
+today is the ${noun5} Spaniel. Spaniels have curly ${color}
+coats and ${adj3} ears. They also have very ${adj4}
+dispositions and live to be ${num} years old. Other popular dogs
+are ${adj5} Terriers, German ${pnoun1}, and the
+${adj6} Poodle. Every ${noun6} should have a loyal dog.`;
+
+console.log(story);*/
+//End of Take-Home day2
+
+//Daily Challenge day3
+    // CHALLENGE 1 - Prompt User, Store input, Reverse input, Alert reversed string
+    /*const firstName = prompt("what is your first name?");
+        console.log(firstName);
+    const splitArray = firstName.split("");
+    const reversedArray = splitArray.reverse();
+    const reversedString = reversedArray.join("");
+        console.log(firstName.split("").reverse().join(""))
+    alert(firstName.split("").reverse().join(""))*/
+
+    // Challenge 2 - Prompt for 2 nummbers, convert prompt to integers, alert added inputs
+    /*const number1 = prompt("pick a number", "10");
+    const number2 = prompt("pick another number", "10");
+    const convert1 = parseInt(number1);
+    const convert2 = parseInt(number2);
+        console.log(convert1);
+        console.log(convert2);
+    alert(convert1 + convert2);*/
+//End of Daily Challenge day3
+
+//Take-Home day3
+    /*const firstName = prompt("what is your first name?");
+        console.log(firstName);
+    const lastName = prompt("what is your last name?");
+    alert(lastName);*/
+//BONUS
+    /*const bday = prompt("when is your birthday?");
+    confirm("Confirm your birthday");
+    alert(bday);*/
+//End Take-Home day3
+
+
+
