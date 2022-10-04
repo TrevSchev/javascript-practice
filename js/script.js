@@ -94,7 +94,26 @@ Symbol() //also unique
 typeof
 
 1. unary operator (operate on 1 thing)
+    // operator operand
+    example: typeof 43, type of is the operator and 43 is the operand
 2. binary operator (operates on 2 things)
+    //operand operator operand
+    example: 4 + 8, 4 and 8 are the operands and the + is the operator
+
+// Logical operators
+&& = "AND"
+|| = "OR"
+! = "NOt" 
+
+//if you are hungry && have money then you can go to restaurant 
+
+const isHungry = true;
+const hasMoney = true;
+
+
+if (isHungry && hasMoney) {
+    console.log(go to restaurant);
+}
 
  */
 
@@ -147,15 +166,15 @@ console.log(story);*/
     // CHALLENGE 1 - Prompt User, Store input, Reverse input, Alert reversed string
     /*const firstName = prompt("what is your first name?");
         console.log(firstName);
-    const splitArray = firstName.split("");
-    const reversedArray = splitArray.reverse();
-    const reversedString = reversedArray.join("");
-        console.log(firstName.split("").reverse().join(""))
-    alert(firstName.split("").reverse().join(""))*/
+    const firstNameArray = firstName.split(""); // "Trevor" = ["t", "r", "e", "v", "o", "r"] splits the letter
+    const reversedFirstNameArray = firstNameArray.reverse();
+    const reversedFirstName = reversedFirstNameArray.join("");
+    alert(reversedFirstName);*/
+    
 
     // Challenge 2 - Prompt for 2 nummbers, convert prompt to integers, alert added inputs
-    /*const number1 = prompt("pick a number", "10");
-    const number2 = prompt("pick another number", "10");
+    /*const number1 = prompt("pick a number", 10);
+    const number2 = prompt("pick another number", 10);
     const convert1 = parseInt(number1);
     const convert2 = parseInt(number2);
         console.log(convert1);
@@ -170,9 +189,25 @@ console.log(story);*/
     alert(lastName);*/
 //BONUS
     /*const bday = prompt("when is your birthday?");
-    confirm("Confirm your birthday");
+    confirm(`Confirm your birthday: ${bday}`);
+    // use back ticks ``` inorder to use a variable in your sting in this way
     alert(bday);*/
 //End Take-Home day3
 
 
+// const isHappy = confirm("Are you Happy?");
 
+
+// if (isHappy) {
+//     console.log("Then you're good");
+// } else {
+//     const wantsToBeHappy = confirm("Do you want to be happy?");
+
+//     if (wantsToBeHappy) {
+//         console.log("Change Something");
+//     }
+// }
+
+
+((!true) || true)
+false OR true = true

@@ -10,7 +10,11 @@
 
     <style>
       h1 {
-        color: red;
+        color: rgb(180, 20, 20);
+      }
+
+      table {
+        border: solid black 1px;
       }
     </style>
 
@@ -22,12 +26,63 @@
         like css*/
 
       //but single lines like this in js
-      alert("JS running in script tag in html");
+      //alert("JS running in script tag in html");
     </script>
   </head>
   <body>
     <h1 style="font-size: 100px">JavaScript Demo Day 1</h1>
 
     <button onclick="alert('you clicked me');">Click me</button>
+
+    <h1>Day 4</h1>
+    <p>Both have to be true inorder to be true</p>
+    <table>
+      <tr>
+        <th>AND (&&)</th>
+        <th>true</th>
+        <th>false</th>
+      </tr>
+      <tr>
+        <th>true</th>
+        <th>true</th>
+        <th>false</th>
+      </tr>
+      <tr>
+        <th>false</th>
+        <th>false</th>
+        <th>false</th>
+      </tr>
+    </table>
+    <p>If one is true then true</p>
+    <table>
+      <tr>
+        <th>OR (||)</th>
+        <th>true</th>
+        <th>false</th>
+      </tr>
+      <tr>
+        <th>true</th>
+        <th>true</th>
+        <th>true</th>
+      </tr>
+      <tr>
+        <th>false</th>
+        <th>true</th>
+        <th>false</th>
+      </tr>
+    </table>
+    <p>Not true = false, Not false = true</p>
+    <table>
+      <tr>
+        <th>NOT (!)</th>
+        <th>true</th>
+        <th>false</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>false</th>
+        <th>true</th>
+      </tr>
+    </table>
   </body>
 </html>
