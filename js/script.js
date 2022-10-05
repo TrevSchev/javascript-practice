@@ -209,5 +209,24 @@ console.log(story);*/
 // }
 
 
-((!true) || true)
-false OR true = true
+// ((!true) || true)
+// false OR true = true
+
+// DAY 4 Challenge
+const num1 = prompt("Pick a Number");
+const num2 = prompt("Pick another Number");
+const convert1 = parseInt(num1);
+const convert2 = parseInt(num2);
+    console.log(convert1);
+    console.log(convert2);
+
+    
+if (convert1 === convert2){
+        alert("The numbers are equal");
+    }
+if (convert1 > convert2) {
+    alert(convert1);
+} else {
+    (convert1 < convert2);
+    alert(convert2)
+} 
